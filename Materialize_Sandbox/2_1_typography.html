@@ -126,40 +126,45 @@
     <!-- START HERE -->
 
     <!-- HEADINGS -->
-
+    <h1>Heading one</h1>
+    <h2>Heading two</h2>
+    <h3>Heading three</h3>
+    <h4>Heading four</h4>
+    <h5>Heading five</h5>
+    <h6>Heading six</h6>
     <!-- PARAGRAPH -->
-
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab quod soluta commodi hic nostrum, mollitia accusamus reiciendis saepe eum fugiat explicabo ad eos. Molestiae sapiente dolores, inventore accusamus maiores magni incidunt rem minus sunt, aut saepe vel eum illum! Odio. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit voluptatum praesentium dignissimos numquam eum nemo dolorum quos nam? Deleniti a blanditiis, laboriosam et voluptates unde. Et distinctio optio, rerum ea eaque exercitationem consequuntur cupiditate totam natus sequi tenetur cumque libero molestias. A sed laboriosam non accusantium perspiciatis quidem eos recusandae cumque dicta voluptates! Eos ipsam fugit deserunt modi blanditiis placeat quod, totam minus eligendi non expedita sint porro dolores laboriosam atque. Corporis accusamus, non totam quo commodi, cumque fugiat quasi nostrum optio, voluptatum possimus laboriosam. Aliquid cumque dignissimos, sequi eos fugiat eligendi sint, mollitia aut eum nihil obcaecati voluptas id!</p>
 
     <!-- BLOCKQUOTE -->
-
+    <blockquote>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum modi officiis enim veniam earum eum recusandae tempora facere? Dolorum repudiandae officia ab, porro nulla cupiditate, in quisquam aspernatur delectus suscipit harum, illum voluptas iste facere! Commodi tempora corrupti modi eveniet!</blockquote>
 
     <!-- FLOW TEXT -->
-    <p>
+    <p class="flow-text">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ex non vero nemo minima corporisullam blanditiis consequuntur,
       est ab.</p>
 
     <!-- TEXT ALIGNMENT -->
     <div>
-      <h5>Left aligned text</h5>
+      <h5 class="left-align">Left aligned text</h5>
     </div>
     <div>
-      <h5>Right aligned text</h5>
+      <h5 class="right-align">Right aligned text</h5>
     </div>
     <div>
-      <h5>Center aligned text</h5>
+      <h5 class="center-align">Center aligned text</h5>
     </div>
 
     <!-- VERTICAL ALIGNMENT -->
-    <div>
+    <div style="height:400px;background: #ccc;" class="valign-wrapper halign-wrapper">
       <h5>This should be vertically aligned</h5>
     </div>
 
     <!-- QUICK FLOATS -->
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, qui?</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, qui?</p>
+    <p class="left">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, qui?</p><br>
+    <p class="right">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, qui?</p><br>
     <div></div>
     <!-- CLEAR FLOATS -->
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nulla!</p>
+    <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nulla!</p>
     <!-- END HERE -->
 
 
@@ -171,7 +176,6 @@
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
-  <script type="text/javascript" src="js/test.js"></script>
   <script>
     $(document).ready(function () {
       $('.dropdown-button').dropdown({
